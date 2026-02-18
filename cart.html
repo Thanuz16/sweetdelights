@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sweet Delights | Cart</title>
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <div class="logo">
+            <img src="sweet_delights.png" width="100">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section style="padding:60px 5%; background:#fffaf0;">
+    <h2 style="text-align:center; color:#5d4037;">Your Cart</h2>
+
+    <div id="cart-items" style="max-width:800px; margin:30px auto;"></div>
+
+    <h3 id="cart-total" style="text-align:center; color:#e91e63;"></h3>
+
+    <div style="text-align:center; margin-top:20px;">
+        <button onclick="clearCart()" 
+            style="background:#ffb6c1; border:none; padding:10px 20px; cursor:pointer; border-radius:5px;">
+            Clear Cart
+        </button>
+    </div>
+</section>
+    
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="sweet_delights.png" width="90">
+            <p>
+                Freshly baked happiness made with love. 
+                Bringing sweetness to your day, one bite at a time.
+            </p>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-contact">
+            <h4>Visit Us</h4>
+            <p><b>Sweet Delights Bakery</b><br>
+            Section 7, 40000 Shah Alam,<br>
+            Selangor, Malaysia</p>
+            
+            <p>Email: <a href="mailto:info@sweetdelights.com" style="text-decoration: none; color: inherit;">info@sweetdelights.com</a></p>
+            
+            <p>Phone: <a href="tel:+60122160244" style="text-decoration: none; color: inherit;">+6012-2160 244</a></p>
+        </div>
+        <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="facebook_logo.png" alt="Facebook">
+                </a>
+
+                <a href="https://instagram.com" target="_blank">
+                    <img src="instagram_logo.png" alt="Instagram">
+                </a>
+
+                <a href="https://twitter.com" target="_blank">
+                    <img src="x_logo.png" alt="Twitter">
+                </a>
+
+                <a href="https://tiktok.com" target="_blank">
+                    <img src="tiktok_logo.png" alt="TikTok">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        © 2026 Sweet Delights Bakery. All Rights Reserved.
+    </div>
+</footer>
+<script src="cart.js"></script>
+</body>
+</html>

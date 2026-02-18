@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sweet Delights | About Us</title>
+    <style>
+        .about-container {
+            padding: 50px 5%;
+            background-color: #fffaf0;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #5d4037;
+            margin-bottom: 40px;
+        }
+
+        .about-vertical-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .about-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .about-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .about-card img, .about-card video {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .about-text p {
+            text-align: justify;
+            color: #555;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <header>
+            <div class="header-content">
+                <div class="logo">
+                    <img src="sweet_delights.png" alt="Sweet Delights Logo" width="100">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main style="grid-area: content;"> <section class="about-container">
+                
+                <div class="about-vertical-grid"> <div class="about-card">
+                        <div class="about-text">
+                            <h2 style="color: #5d4037;">Our Story</h2>
+                            <h3 style="color:rosybrown;">｡ ₊°༺❤︎༻°₊ ｡</h3>
+                            <p>
+                                Founded in the heart of the city, <strong>Sweet Delights</strong> began with a 
+                                passion for traditional recipes and a modern twist. Every pastry we bake 
+                                tells a story of quality ingredients and handmade love.
+                            </p>
+                            <p>
+                                Whether it is your morning coffee companion or a grand celebration cake, 
+                                we are dedicated to making every bite a memorable experience for our local community.
+                            </p>
+                        </div>
+
+                        <img src="bakery_header.jpg" alt="Bakery Header Image">
+                        <video src="sweet-delights.mp4" autoplay muted loop controls></video>
+                        
+                        <p style="margin-top:20px;"><b><i>Interested to know more?</i></b></p>
+                        <button class="shop-btn" onclick="location.href='contact.html'">Contact Us Now!</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="sweet_delights.png" width="90">
+            <p>
+                Freshly baked happiness made with love. 
+                Bringing sweetness to your day, one bite at a time.
+            </p>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-contact">
+            <h4>Visit Us</h4>
+            <p><b>Sweet Delights Bakery</b><br>
+            Section 7, 40000 Shah Alam,<br>
+            Selangor, Malaysia</p>
+            
+            <p>Email: <a href="mailto:info@sweetdelights.com" style="text-decoration: none; color: inherit;">info@sweetdelights.com</a></p>
+            
+            <p>Phone: <a href="tel:+60122160244" style="text-decoration: none; color: inherit;">+6012-2160 244</a></p>
+        </div>
+        <div class="footer-social">
+            
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="facebook_logo.png" alt="Facebook">
+                </a>
+
+                <a href="https://instagram.com" target="_blank">
+                    <img src="instagram_logo.png" alt="Instagram">
+                </a>
+
+                <a href="https://twitter.com" target="_blank">
+                    <img src="x_logo.png" alt="Twitter">
+                </a>
+
+                <a href="https://tiktok.com" target="_blank">
+                    <img src="tiktok_logo.png" alt="TikTok">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+    © 2026 Sweet Delights Bakery. All Rights Reserved.
+    </div>
+</footer>
+    </div>
+</body>
+</html>

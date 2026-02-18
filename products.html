@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sweet Delights | Products</title>
+    <style>
+        .products-container {
+            padding: 50px 5%;
+            background-color: #fffaf0;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #5d4037;
+            margin-bottom: 40px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .price {
+            color: #e91e63;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .buy-btn {
+            background-color: #5d4037;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <header>
+            <div class="header-content">
+                <div class="logo">
+                    <img src="sweet_delights.png" alt="Sweet Delights Logo" width="100">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main style="grid-area: content;"> <section class="products-container">
+                <h2 class="section-title">Our Products</h2>
+                <h2 style="text-align: center; color:rosybrown;">────────────────── ⋆⋅☆⋅⋆ ────────────────────</h2>
+                <br>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="chocolate-cake.png" alt="Rich Chocolate Cake">
+                        <h3>Chocolate Cake</h3>
+                        <p class="price">RM 15.00</p>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="croissant.png" alt="Rose Croissant">
+                        <h3>Rose Croissant</h3>
+                        <p class="price">RM 12.00</p>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="donuts.png" alt="Donuts">
+                        <h3>Donuts (Assorted)</h3>
+                        <p class="price">RM 3.00</p>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="sausage-bun.png" alt="Sausage Bun">
+                        <h3>Sausage Bun</h3>
+                        <p class="price">RM 4.00</p>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="sandwich.png" alt="Red Velvet Sandwich">
+                        <h3>Red Velvet Sandwich</h3>
+                        <p class="price">RM 10.00</p>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="brioche.png" alt="Cinnamon Swirl Brioche">
+                        <h3>Cinnamon Swirl Brioche</h3>
+                        <p class="price">RM 15.00</p>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="cupcake.png" alt="Classic Strawberry Cupcake">
+                        <h3>Classic Cupcake</h3>
+                        <p class="price">RM 3.50</p>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="sourdough.png" alt="Fresh Sourdough Bread">
+                        <h3>Fresh Sourdough</h3>
+                        <p class="price">RM 6.00</p>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <img src="sweet_delights.png" width="90">
+            <p>
+                Freshly baked happiness made with love. 
+                Bringing sweetness to your day, one bite at a time.
+            </p>
+        </div>
+        <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-contact">
+            <h4>Visit Us</h4>
+            <p><b>Sweet Delights Bakery</b><br>
+            Section 7, 40000 Shah Alam,<br>
+            Selangor, Malaysia</p>
+            
+            <p>Email: <a href="mailto:info@sweetdelights.com" style="text-decoration: none; color: inherit;">info@sweetdelights.com</a></p>
+            
+            <p>Phone: <a href="tel:+60122160244" style="text-decoration: none; color: inherit;">+6012-2160 244</a></p>
+        </div>
+        <div class="footer-social">
+            
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="facebook_logo.png" alt="Facebook">
+                </a>
+
+                <a href="https://instagram.com" target="_blank">
+                    <img src="instagram_logo.png" alt="Instagram">
+                </a>
+
+                <a href="https://twitter.com" target="_blank">
+                    <img src="x_logo.png" alt="Twitter">
+                </a>
+
+                <a href="https://tiktok.com" target="_blank">
+                    <img src="tiktok_logo.png" alt="TikTok">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        © 2026 Sweet Delights Bakery. All Rights Reserved.
+    </div>
+</footer>
+    </div>
+<script src="cart.js"></script>
+</body>
+</html>
